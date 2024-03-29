@@ -1,0 +1,251 @@
+*{
+ font-family: "Inter", sans-serif;
+  
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+/* Removendo as bordas */
+body {
+  margin: 0; /* Removendo as margens padrão do corpo da página */
+  padding: 0; /* Removendo o padding padrão do corpo da página */
+  border: 0; /* Removendo a borda do corpo da página */
+}
+/* Removendo as bordas *
+/* primeiro titolo superior */
+#tisuperior1{
+    margin-left: 90px;  /* espaçamento margem da esquerda para direita  */
+    color: #FFFFFF;
+    width: 1024px;
+    height: 72px;
+    top: 206px;
+    left: 62px;
+    margin: 45px; /* ..espaço entre linhas. */
+    /* ........... */
+font-family: "Inter";
+font-size: 60px;
+font-weight: 600;
+line-height: 400px; /* Adicionando espaçamento na parte de baixo */
+letter-spacing: -0.025em;
+text-align: left ;
+ /*  ...*/
+    
+}
+/* segundo t linha  titolo superior  */
+#tisuperior2{
+  margin-left: 55px;   /* espaçamento margem da esquerda para direita  */
+    color: #FFFFFF;
+    width: 1024px;
+height: 28px;
+top: 298px;
+left: 62px;
+ /* ........... */
+ font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 320px;  /* Adicionando espaçamento na parte de baixo */
+letter-spacing: 0em;
+text-align: left;
+
+  
+ 
+
+}
+/* div superior titolos */
+#dvsuperior{
+    width: 1440px;
+    height: 475px;
+    
+    background: #303030;
+    display:inline-block;/* remove bordas */
+    padding: 0; /* Removendo o padding padrão do corpo da página */
+    
+}
+/* div acima do corpo */
+/* div faixa */
+
+.container {
+  display: flex;
+  background-color: #F9F9F9;
+  flex-direction: row;
+  width: 1440px;/* ajusta largura */
+}
+
+.item {
+  text-align: center;
+  flex: 1;
+  font-family: "Inter";
+color: normal;
+font-family: "Inter";
+font-size: 18px; /* Ajuste tamanho da letra ou fonte */
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 170px;/* Ajuste o margem TEXTO*/
+margin-top: 80px;/* Ajuste altura da imagem */
+
+  }
+
+/* Ajuste NUMERO */
+.number{
+  font-family: "Inter";
+font-size: 40px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+
+/* div corpo */
+#ticorpo{
+  font-size: 32px; /*titolo Ajuste tamanho da letra ou fonte */
+  margin-left: 5px;/* Ajuste o margem */
+  margin: 0px; /* ..margen  */
+  
+    margin-bottom: 28px; /* Adiciona espaço abaixo do título */
+
+
+
+font-family: "Inter";
+
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+
+
+}
+
+  .content-wrapper {
+    display: flex;
+    align-items:center;/* Ajuste o texto no centro da imagem */
+    margin-left: 0px;/* Ajuste o margem */
+    
+  }
+  
+  .text {
+    flex: 1;
+    padding: 0 90px; /* Ajuste o espaçamento conforme necessário */
+    font-family: "Inter";
+   margin-left: 20px;/* Ajuste o margem */
+   margin: 45px; /* ..espaço entre linhas. */
+   width: 790px;
+   height: 161px;
+   top: 1003px;
+   left: 77px;
+  
+   
+  
+ 
+  
+  }
+  
+  .image {
+    flex: 1;  /* Ajuste  imagem do lado do texto */
+    text-align: right;
+    margin-top: 50px;/* Ajuste altura da imagem */
+    width: 510px;/* comprimento */
+    height: 605px;
+    top: 781px;
+    left: 876px;
+    border-radius: 30   ;
+
+    
+  }
+          /* div ultima de baixo contato */
+      #tidebaixo{
+        color: #FFFFFF;
+        font-family: "Inter";
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 80px; /* altura distancia entre botao*/
+        left: 248px;/* altura */
+        width: 944px;
+        height: 48px;
+        top:1565px;
+        display: flex;
+        flex-direction: column;/* Ajuste colunas */
+        line-height: 48px;
+        align-items: center;
+        
+               
+
+      }
+      form {
+        display: flex;
+            flex-direction: column;/* Ajuste colunas */
+            align-items: center; /* Adicionando o alinhamento no centro */
+        text-align: center; /* Centraliza o conteúdo dentro do formulário */
+      }
+          #form-container {
+            
+            display: flex;
+            flex-direction: column;/* Ajuste colunas */
+            align-items: center; /* Adicionando o alinhamento no centro */
+            
+            background:  rgba(48, 48, 48, 1);/* Adicionando o cor fundo */
+            
+            margin-top: 88px;/* Ajuste altura da dive entre a imagem */
+            justify-content: center;
+           
+            
+       
+            
+
+          }
+          /* tetebox */
+          input, button {
+            margin-bottom: 30px;
+            padding-left: 30px;/* margen texto */
+            width: 508px;/* comprimento */
+            height: 72px;/* altura */
+            top: 1795px;
+            left: 466px;
+            border-radius: 10px;
+            margin: 0px; /* altura distancia entre fim pag  baixo*/
+            border-radius: 10px;/* curvatura */
+            font-family: "Raleway";
+           font-size:  30px;
+           font-weight: 700;
+           line-height: 30px;
+           letter-spacing: 0px;
+           text-align: left;
+            
+         
+
+
+          }
+          /* botao */
+          button {
+            background: #C07212;
+            width: 286px;/* comprimento */
+            height: 74px;/* altura */
+            top: 1955px;
+            left: 577px;
+            border-radius: 10px;/* curvatura */
+            border: 0px;/* borda */
+            color:rgba(255, 255, 255, 1);/* cor da letra */
+            
+            font-weight: bolder;/* cor letra efeito */
+            cursor: pointer;/* efeito clik */
+          font-family: "Raleway";
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0px;
+          text-align:center;
+
+          
+          
+          
+          
+
+          }
